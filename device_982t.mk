@@ -4,7 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/mts/982t/k1_turbo-vendor.mk)
+$(call inherit-product-if-exists, vendor/mts/982t/982t-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/mts/982t/overlay
 
