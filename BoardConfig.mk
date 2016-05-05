@@ -7,6 +7,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/mts/982t/include
 # Platform
 TARGET_BOARD_PLATFORM := mt6572
 TARGET_NO_BOOTLOADER := true
+BLOCK_BASED_OTA :=false
 
 # Architecture
 TARGET_ARCH := arm
